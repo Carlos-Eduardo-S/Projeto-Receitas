@@ -103,6 +103,7 @@ body {
     display: flex;
     gap: 36px;
     align-items: center;
+    margin-bottom: 4px;
     height: 24px;
 }
 
@@ -114,4 +115,59 @@ body {
 
 .lista__destaque {
     font-weight: 600;
+}
+
+/* Ingredientes */
+.conteudo__ingredientes {
+    width: 656px;
+    height: 204px;
+    padding: 0 40px;
+    margin-bottom: 32px;
+}
+
+.ingredientes__titulo {
+    font-family: var(--young);
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--brown-800);
+    margin-bottom: 24px;
+}
+
+.lista__item {
+    font-family: var(--outfit);
+    font-size: 16px;
+    color: var(--stone-600);
+}
+
+/* Linha */
+hr {
+    color: var(--stone-150);
+    width: 656px;
+}
+
+/* Intruções */
+.conteudo__instrucoes {
+    width: 656px;
+    padding: 0px 40px;
+    margin: 32px 0;
+}
+
+.instrucoes__titulo {
+    font-family: var(--young);
+    font-size: 28px;
+    color: var(--brown-800);
+    margin-bottom: 24px;
+}
+
+.lista__numero {
+    font-family: var(--outfit);
+    font-size: 16px;
+    color: var(--stone-600);
+    margin-bottom: 16px;
+    display: flex;
+    gap: 32px;
+}
+
+.item__numero {
+    height: 13px;
 }
