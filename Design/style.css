@@ -92,10 +92,26 @@ body {
 }
 
 .preparacao__lista {
-    list-style: disc;
-    padding-left: 40px;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     gap: 8px;
     color: var(--stone-600);
+}
+
+.lista__item {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    height: 24px;
+}
+
+.item__ponto {
+    width: 4px;
+    height: 4px;
+    align-items: center;
+}
+
+.lista__destaque {
+    font-weight: 600;
 }
