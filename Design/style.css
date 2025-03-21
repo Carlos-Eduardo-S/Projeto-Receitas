@@ -237,10 +237,12 @@ hr {
         width: 536px;
     }
 
+    /* Intruções */
     .conteudo__instrucoes {
         width: 536px;
     }
 
+    /* Nutrição */
     .conteudo__nutricao {
         width: 536px;
     }
@@ -251,5 +253,79 @@ hr {
 
     .lista__numero {
         gap: 16px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 376px) {
+    /* Corpo da Página */
+    body {
+        background-color: var(--white);
+        width: 375px;
+        margin: 0px;
+        padding-left: 60px;
+        height: 1900px;
+    }
+
+    /* Corpo da Receita */
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Imagem */
+    .conteudo__img {
+        width: 491px;
+        margin: 0px;
+        border-radius: 0px;
+        margin-bottom: 40px;
+    }
+
+    /* Apresentação */
+    .conteudo__apresentacao {
+        width: 360px
+    }
+    
+    /* Preparação */
+    .conteudo__preparacao {
+        width: 365px;
+        padding: 0px;
+    }
+
+    .preparacao__lista {
+        width: 240px;
+    }
+
+    /* Ingredientes */
+
+    .conteudo__ingredientes {
+        width: 360px;
+    }
+
+    hr {
+        width: 375px;
+    }
+
+    /* Instruções */
+
+    .conteudo__instrucoes {
+        width: 360px;
+    }
+
+    /* Nutrição */
+
+    .conteudo__nutricao {
+        width: 360px;
+        margin-bottom: 40px;
+    }
+
+    .nutricao__texto {
+        width: 311px;
+    }
+
+    .tabela__calorias {
+        width: 240px;
     }
 }
