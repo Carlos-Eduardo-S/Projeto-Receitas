@@ -24,3 +24,25 @@
     /* White */
     --white: #FFFFFF;
 }
+
+body {
+    background-color: var(--stone-100);
+    margin: 4% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: var(--white);
+    width: 736px;
+    height: 1700px;
+    border-radius: 24px;
+}
+
+.conteudo__img {
+    width: 656px;
+    margin: 40px;
+    border-radius: 12px;
+}
+
+.conteudo__
