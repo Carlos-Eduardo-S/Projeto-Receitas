@@ -150,6 +150,7 @@ hr {
     width: 656px;
     padding: 0px 40px;
     margin: 32px 0;
+    font-size: 16px;
 }
 
 .instrucoes__titulo {
@@ -170,4 +171,42 @@ hr {
 
 .item__numero {
     height: 13px;
+}
+
+/* Nutrição */
+.conteudo__nutricao {
+    width: 656px;
+    margin: 32px 40px 40px 40px;
+    font-family: var(--outfit);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--stone-600);
+}
+
+.nutricao__titulo {
+    font-family: var(--young);
+    font-size: 28px;
+    color: var(--brown-800);
+    margin-bottom: 32px;
+}
+
+.nutricao__texto {
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+
+.tabela__calorias {
+    display: flex;
+    padding-left: 32px;
+    gap: 8px;
+    height: 30px;
+}
+
+.calorias__texto {
+    width: 288px;
+}
+
+.calorias__numero {
+    color: var(--brown-800);
+    font-weight: 700;
 }
