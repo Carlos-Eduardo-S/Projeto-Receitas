@@ -210,3 +210,46 @@ hr {
     color: var(--brown-800);
     font-weight: 700;
 }
+
+/* Responsividade */
+/* Tablet */
+
+@media (max-width: 768px) {
+    /* Corpo da Receita */
+    .conteudo {
+        width: 616px;
+        height: 1760px;
+    }
+
+    /* Imagem */
+    .conteudo__img {
+        width: 536px;
+        margin: 40px;
+        border-radius: 12px;
+    }
+
+    /* Preparação */
+    .conteudo__preparacao {
+        width: 536px;
+    }
+
+    hr {
+        width: 536px;
+    }
+
+    .conteudo__instrucoes {
+        width: 536px;
+    }
+
+    .conteudo__nutricao {
+        width: 536px;
+    }
+
+    .lista__item {
+        gap: 16px;
+    }
+
+    .lista__numero {
+        gap: 16px;
+    }
+}
